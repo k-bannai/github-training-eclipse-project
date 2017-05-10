@@ -16,6 +16,6 @@ public class GithubWork1 {
 	    int day = c.get(Calendar.DATE);
 		
 		System.out.println("今日は"+year+"年"+ month+"月"+day+"日です。");
-		
+
 	}
 }
