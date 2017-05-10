@@ -1,5 +1,21 @@
 package Training;
 
-public class GithubWork1 {
+import java.util.Calendar;
 
+public class GithubWork1 {
+	public static void main(String[] args) {
+		
+		work1();
+
+	}
+
+	public static void work1() {
+		Calendar c = Calendar.getInstance();
+		int year = c.get(Calendar.YEAR);
+	    int month = c.get(Calendar.MONTH) + 1;
+	    int day = c.get(Calendar.DATE);
+		
+		System.out.println("今日は"+year+"年"+ month+"月"+day+"日です。");
+		
+	}
 }
