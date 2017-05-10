@@ -11,6 +11,7 @@ public class GithubWork1 {
 
 	public static void work1() {
 		Calendar c = Calendar.getInstance();
+		c.add(Calendar.DAY_OF_MONTH, 1);
 		int year = c.get(Calendar.YEAR);
 	    int month = c.get(Calendar.MONTH) + 1;
 	    int day = c.get(Calendar.DATE);
